@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.App {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  border-bottom: 1px solid #FF101F;
+}
+
+.App h1 {
+  color: #FF101F;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Login==================================================================================*/
+
+.LoginPage{
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.txtUsername{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  align-items: center;
+}
+
+.txtPassword {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.btnSignin{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  align-items: center;
+}
+
+.register{
+  font-size: 80%;
+  margin-left: 84%;
+  margin-top: -5.5%;
+}
+
+.forgotPassword{
+  font-size: 80%;
+}
+/* =======================================================================================*/
+/* Todo===================================================================================*/
+.Todo-preview {
+  padding: 10px 16px;
+  margin: 20px 100px;
+  border-bottom: 1px solid #f1356d;
+  box-shadow: 1px 3px 5px #f1356d;
+}
+
+.todoName{
+  color: red;
+}
+
+.todoStatus{
+    margin-left: 60%;
+    margin-top: -5%;
+}
+
+.done{
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  padding: 30px 1px;
+  margin: 20px 350px;
+  text-align: center;
+  margin-left: 20%;
+  color: gray;
+}
+
+.done h3{
+  color: gray;
+}
+
+.done h1{
+  color: gray;
+}
+
+.priority{
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  padding: 30px 1px;
+  margin: 20px 350px;
+  text-align: center;
+  margin-right: 120px;
+  margin-top: -24%;
+  
+}
+
+.priority h3{
+  color: #f1356d;
+}
+
+.priority h1{
+  color: #f1356d;
+}
+
+.filter{
+  margin-left: 18%;
+}
+
+.addTodo {
+  margin-left: 66%;
+  margin-top: -3.6%;
+}
+
+/* =======================================================================================*/
+
+.AddPage {
+  padding: 10px 16px;
+  margin: 20px 100px;
+}
+
+.AddPage h3 {
+  text-align: center;
+  color: #f1356d;
+}
+
+.AddPage select{
+  width: 100%;
+
+}
+
+.AddPage button{
+  width: 100%;
+  margin-top: 3%;
+
+}
+
+/* =======================================================================================*/
+
+.deletePage {
+  padding: 10px 16px;
+  margin: 20px 100px;
+}
